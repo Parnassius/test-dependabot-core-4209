@@ -7,11 +7,11 @@ optional = false
 python-versions = ">=3.6"
 
 [package.extras]
-tests = ["pytest", "pytest-asyncio", "mypy (>=0.800)"]
+tests = ["mypy (>=0.800)", "pytest", "pytest-asyncio"]
 
 [[package]]
 name = "dj.choices"
-version = "0.10.0"
+version = "0.11.0"
 description = "An enum implementation for Django forms and models."
 category = "main"
 optional = false
@@ -65,7 +65,7 @@ python-versions = ">=3.5"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "bf272f9de45374b1556c07345f80e0e0557adc517437db77831e58cebf993673"
+content-hash = "c95ece59f755309153eafed3d4415114f66176977769e3cf5a30478236e47d9f"
 
 [metadata.files]
 asgiref = [
@@ -73,8 +73,7 @@ asgiref = [
     {file = "asgiref-3.4.1.tar.gz", hash = "sha256:4ef1ab46b484e3c706329cedeff284a5d40824200638503f5768edb6de7d58e9"},
 ]
 "dj.choices" = [
-    {file = "dj.choices-0.10.0-py2.py3-none-any.whl", hash = "sha256:96d295872bd070d46cfd99c6db6b446898dbdec655fb3d866740899f3eee026f"},
-    {file = "dj.choices-0.10.0.tar.gz", hash = "sha256:ed5547a0f635c3074ee607998a378465d70a84ce7ac1f9358f9be707adc636e9"},
+    {file = "dj.choices-0.11.0.tar.gz", hash = "sha256:2c23f03ead45d5710512c52988f105ffed4b0cabb8a2cdcbf45108153fe25517"},
 ]
 django = [
     {file = "Django-3.2.7-py3-none-any.whl", hash = "sha256:e93c93565005b37ddebf2396b4dc4b6913c1838baa82efdfb79acedd5816c240"},
